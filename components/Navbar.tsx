@@ -10,17 +10,17 @@ const NavBar = () => (
                 <Image
                     src='/logo.svg'
                     alt='logo'
-                    width={118}
-                    height={18}
-                    className='object-contain'
+                    width={50}
+                    height={50}
                 />
+                <p className='text-2xl font-bold text-primary-blue'>Autos La Laguna</p>
             </Link>
 
-            <CustomButton
+            {/* <CustomButton
                 title='Sign in'
                 btnType='button'
                 containerStyles='text-primary-blue rounded-full bg-white min-w-[130px]'
-            />
+            /> */}
         </nav>
     </header>
 );

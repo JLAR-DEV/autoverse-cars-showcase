@@ -20,16 +20,16 @@ export default async function Home({ searchParams }: HomeProps) {
 
             <div className='mt-12 padding-x padding-y max-width' id='discover'>
                 <div className='home__text-container'>
-                    <h1 className='text-4xl font-extrabold'>Car Catalogue</h1>
-                    <p>Explore out cars you might like</p>
+                    <h1 className='text-4xl font-extrabold'>Catalogo de autos</h1>
+                    <p>Explora los coches que te puedan gustar</p>
                 </div>
 
                 <div className='home__filters'>
                     <SearchBar />
 
                     <div className='home__filter-container'>
-                        <CustomFilter title='fuel' options={fuels} />
-                        <CustomFilter title='year' options={yearsOfProduction} />
+                        {/* <CustomFilter title='fuel' options={fuels} /> */}
+                        <CustomFilter title='Año' options={yearsOfProduction} />
                     </div>
                 </div>
 
